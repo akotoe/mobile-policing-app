@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile Policing</title>
+<%=stylesheet_link_tag "application", :media=>"all"%>
+<%=javascript_include_tag "application", :media=>"all"%>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="wrapper2">
+		<div id="header">
+			<div id="logo">
+				<h2>Mobile Policing</h2>
+			</div>
+
+			
+		</div>
+		<!-- end #header -->
+		<div id="page">
+			<div id="content">
+				<div class="post">
+					
+<%=yield%>
+				</div>				
+			</div>
+			<!-- end #content -->
+			
+			
+			<div style="clear: both;">&nbsp;</div>
+			
+		</div>
+		<!-- end #page -->
+	</div>
+	<!-- end #wrapper2 -->
+	<div id="footer">
+		<p>(c) 2012 Mobile Policing. Designed by Edward Akoto</p>
+	</div>
+</div>
+<!-- end #wrapper -->
+</body>
+</html>
+
+

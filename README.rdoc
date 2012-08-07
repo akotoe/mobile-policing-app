@@ -1,0 +1,12 @@
+mobile-policing-app
+DESCRIPTION
+
+This Ruby on Rails application allows users to report problems to police using their android mobile phones
+
+INSTALLATION
+
+Extract the mobile-policing android app included in the folder named "client" and install on an android mobile phone, then try it out
+
+PARTING-SHOT
+
+Anyone is invited to contribute to this project

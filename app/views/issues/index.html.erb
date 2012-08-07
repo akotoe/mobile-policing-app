@@ -1,0 +1,32 @@
+
+<table id="grid">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Nature</th>
+    <th>Location</th>
+    <th>Time</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @issues.each do |issue| %>
+  <tr>
+    <td><%= issue.id %></td>
+    <td><%= issue.name %></td>
+    <td><%= issue.nature %></td>
+    <td><%= issue.location %></td>
+    <td><%= issue.time %></td>
+    <td><%= issue.description %></td>
+    <td><%= link_to 'Show', issue %></td>
+    <td><%= link_to 'Edit', edit_issue_path(issue) %></td>
+    <td><%= link_to 'Destroy', issue, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<a href="https://github.com/akotoe/mobile-policing-app.git">Download Android Client</a>
