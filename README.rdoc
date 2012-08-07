@@ -1,4 +1,6 @@
 mobile-policing-app
+===================
+
 DESCRIPTION
 
 This Ruby on Rails application allows users to report problems to police using their android mobile phones
